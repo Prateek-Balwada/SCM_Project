@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/logofinal.png" class="logo">
+            <ul>
+                <li><a href="main.html" >HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="login.html" class="active">LOGIN / SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper" style="top: 20%;">
+        <form onsubmit="loginvalidate()" action="main.html">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required id="authuser"/>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="authpass"/>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember me </label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn" >Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="signup.html">Register now!</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
