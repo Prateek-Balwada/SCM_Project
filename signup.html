@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/logofinal.png" class="logo">
+            <ul>
+                <li><a href="main.html" >HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="login.html" class="active">LOGIN / SIGN UP</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper">
+        <form onsubmit="validate()" action="login.html">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required id="usernme"/>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" required id="emailnme"/>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required id="pass" />
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" required id="pass1"/>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> I have read and agree to T&C</label>
+            </div>
+
+            <button type="submit" class="btn" >Register</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="login.html">Login now!</a></p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
