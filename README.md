@@ -1,2 +1,2 @@
 # SCM_Project
-This is for conflict.
+This is for merge conflict.
