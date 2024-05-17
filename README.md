@@ -49,7 +49,7 @@ git clone https://github.com/Prateek-Balwada/SCM_Project.git
   Download as zip.
 
 ## Usage
-Navigate to the directory where the repository is cloned and run **index.html**.
+Navigate to the directory where the repository is cloned and run **main.html**.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
