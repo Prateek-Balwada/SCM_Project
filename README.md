@@ -52,7 +52,21 @@ git clone https://github.com/Prateek-Balwada/SCM_Project.git
 Navigate to the directory where the repository is cloned and run **index.html**.
 
 ## Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. All contributions are welcome!
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+```
+Fork the repository.
+Create a new branch (git checkout -b feature/improvement).
+Make your changes.
+Commit your changes (git commit -am 'Add some feature').
+Push to the branch (git push origin feature/improvement).
+Create a new Pull Request.
+```
+
+## Credits
+This Hangman game is created by:
+  - Prateek Balwada
+  - Mridul Sharma 
+  - Komal
 
 ## Contact
 For any questions or feedback, please reach out to [prateek2127.be23@chitkara.edu.com].
