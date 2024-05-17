@@ -21,21 +21,21 @@ The CSS includes styles for a responsive layout, ensuring the website looks good
 For enhanced interactivity and functionality, we included JavaScript.
 
 ## Key Features
-1.Homepage:
+#### Homepage:
 -	Welcomes users with a visually appealing landing page showcasing a background image or color scheme.
 -	Provides a brief introduction and encourages users to browse the menu.
 
-2.Menu Page:
+#### Menu Page:
 -	Each menu item includes a concise description and price.
 
-3.Responsive Design:
+#### Responsive Design:
 -	Ensures a responsive layout for optimal viewing on various devices, maintaining a consistent and user-friendly experience.
 
-4.Basic Styling and Design:
+#### Basic Styling and Design:
 -	Applies simple and clean CSS styles to enhance the overall visual appeal.
 -	Uses typography, color, and spacing to create a cohesive design.
 
-5.Scalability:
+#### Scalability:
 -	The project serves as a foundation that users can build upon by adding more advanced features or integrating a backend for enhanced functionality.
 
 
