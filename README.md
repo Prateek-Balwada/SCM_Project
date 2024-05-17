@@ -39,14 +39,17 @@ For enhanced interactivity and functionality, we included JavaScript.
 -	The project serves as a foundation that users can build upon by adding more advanced features or integrating a backend for enhanced functionality.
 
 
-## How to Run the Project
-Clone the Repository: Clone this repository to your local machine using git clone <repository-url>.
-Open in Browser: Navigate to the project directory and open index.html in your web browser.
-Navigate Through Pages: Use the navigation links to browse through the Home, Menu, Order, and Contact pages.
-Future Enhancements
-JavaScript Integration: Add JavaScript for form validation, dynamic content updates, and enhanced interactivity.
-Backend Integration: Connect the website to a backend server to handle actual food orders and store user data.
-Responsive Design: Enhance the CSS to improve the website's responsiveness across different devices and screen sizes.
+## Installation
+To play this game, simply clone this repository:
+
+```bash
+git clone https://github.com/Prateek-Balwada/SCM_Project.git
+```
+### or 
+  Download as zip.
+
+## Usage
+Navigate to the directory where the repository is cloned and run **index.html**.
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. All contributions are welcome!
