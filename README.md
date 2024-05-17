@@ -1,5 +1,6 @@
 # Basic Food Ordering Website
 
+
 Project Overview
 This is a simple food ordering website built using HTML and CSS. The website allows users to browse through a menu of food items, view details about each item, and place an order. The website is designed to be a static front-end demonstration of a food ordering system.
 
